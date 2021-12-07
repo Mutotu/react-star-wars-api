@@ -1,0 +1,33 @@
+li {
+  list-style-type: none;
+}
+
+body {
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.ships,
+.savedships {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-right: 150px;
+  border: 2px black solid;
+  height: 2rem;
+}
+
+button {
+  margin-left: auto;
+}
+input {
+  margin-bottom: 10px;
+}
